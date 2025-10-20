@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1760942685
+icon.svg::CompressedTexture2D::4909859183755557894::1760929651::1760929660::1::::<><><>0<>0<>bccd301d9c6369ae1b8a7ad6e19ba8c1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1760941071::0::1::::<><><>0<>0<><>::
+::res://assets/::1760942492
+Ai DJ Oracle.png::CompressedTexture2D::3216117263739208106::1760956552::1760942686::1::::<><><>0<>0<>e6a4a06b9168df9ae85f111f8eea2e5e<>res://.godot/imported/Ai DJ Oracle.png-07dfbb9572127009b20c63d21a913943.ctex::
+ai-dj-oracle-icon.png::CompressedTexture2D::1406637589181150748::1760942464::1760942686::1::::<><><>0<>0<>5d8036e9b3e1083d2a7087cd7017d8ac<>res://.godot/imported/ai-dj-oracle-icon.png-fb285fefb87b2ffaa8eb5c5296b7e300.ctex::
+::res://scenes/::1760939777
+main.tscn::PackedScene::1968017883061084901::1760939777::0::1::::<><><>0<>0<><>::uid://cruf6rosptad4::::res://themes/ai_chat_theme.tres<>uid://rkrbdudlcd3k::::res://scripts/ui_root.gd
+::res://scripts/::1760938267
+ui_root.gd::GDScript::1214888282675310830::1760938267::0::1::::<>Control<><>0<>0<><>::
+::res://themes/::1760939674
+ai_chat_theme.tres::Theme::6007699124251676107::1760939674::0::1::::<><><>0<>0<><>::

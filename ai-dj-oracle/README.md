@@ -1,40 +1,51 @@
+<p align="center">
+  <img src="ai-dj-oracle/assets/repo_icon.png" width="128" alt="AI DJ Oracle Icon"/><br>
+  <img src="ai-dj-oracle/assets/github_banner.png" width="800" alt="AI DJ Oracle Banner"/>
+</p>
+
+---
+
 # 🎧 AI DJ Oracle  
 
-[![Made with Godot](https://img.shields.io/badge/Made%20with-Godot%204.5-478CBF?logo=godot-engine&logoColor=white)](https://godotengine.org)
-[![Built with Python](https://img.shields.io/badge/Built%20with-Python%203.13-3776AB?logo=python&logoColor=white)](https://www.python.org)
-[![Powered by xAI](https://img.shields.io/badge/Powered%20by-xAI%20(Grok)-000000?logo=xai&logoColor=white)](https://x.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Author: Val John](https://img.shields.io/badge/Author-Val%20John-orange)](https://github.com/Deze-Tingz)
+> **Born from survival. Built on curiosity. Focused on creation.**  
+> Powered by **xAI**, built with **Godot 4.5**, and crafted by **Val John**.
 
 ---
 
-An experimental **AI-powered chat experience** built with **Godot 4.5** and **Python (Flask)** — bridging creative dialogue between users and an intelligent assistant called **DJ Oracle**, powered by **xAI (Grok)**.
+## 🧠 Overview  
+
+**AI DJ Oracle** is a lightweight **AI-powered virtual DJ** built with **Godot** and **xAI (Grok)**.  
+It simulates a conversational DJ that responds to messages, recommends songs, and sets the mood with dynamic dialogue and sleek visuals.  
+
+The project connects a **Godot frontend** to a **Python Flask backend**, using **xAI’s API** for text responses.
 
 ---
 
-## 🚀 Features
-- 💬 Real-time AI chat via local Flask bridge  
-- 🧠 Integration with xAI (Grok) API  
-- 🎨 Fully custom Godot theme (`ai_chat_theme.tres`)  
-- 🎧 AI & user message bubbles with neon dark styling  
-- 🪶 Lightweight and modular architecture  
+## 🚀 Features  
+
+🎵 **Conversational AI DJ** – Responds to user input in real time  
+💬 **Chat Interface** – Built using Godot’s UI system with BBCode styling  
+🌈 **Custom Theme** – Sleek neon blue + black design for a futuristic aesthetic  
+🧩 **Python Integration** – Flask backend bridge for xAI API  
+⚙️ **Easy to Extend** – Plug in your own model, modify UI, or add audio  
 
 ---
 
-## 🧩 Tech Stack
-| Layer | Technology |
-|-------|-------------|
-| Frontend | [Godot Engine 4.5](https://godotengine.org) |
-| Backend | [Python 3.13 + Flask](https://flask.palletsprojects.com/) |
-| AI Integration | [xAI (Grok API)](https://x.ai) |
-| Version Control | Git + GitHub |
-| Theme | Custom dark-neon `ai_chat_theme.tres` |
+## 🧰 Tech Stack  
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | Godot 4.5 (GDScript) |
+| **Backend** | Python Flask |
+| **AI Model** | xAI Grok |
+| **Language** | GDScript / Python |
+| **Assets** | Custom theme & vector icon by Val John |
 
 ---
 
-## ⚙️ Setup Guide
+## 🧑‍💻 Local Setup  
 
-### 1️⃣ Clone this repo
-```bash
-git clone https://github.com/Deze-Tingz/ai-dj-beat-oracle.git
-cd ai-dj-beat-oracle
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YourUsername/ai-dj-oracle.git
+   cd ai-dj-oracle
