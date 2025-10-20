@@ -1,7 +1,9 @@
-<p align="center">
-  <img src="ai-dj-oracle/assets/repo_icon.png" width="128" alt="AI DJ Oracle Icon"/><br>
-  <img src="ai-dj-oracle/assets/github_banner.png" width="800" alt="AI DJ Oracle Banner"/>
+
+  <p align="center">
+  <img src="assets/repo_icon.png" width="128" alt="AI DJ Oracle Icon"/><br>
+  <img src="assets/github_banner.png" width="800" alt="AI DJ Oracle Banner"/>
 </p>
+
 
 ---
 
