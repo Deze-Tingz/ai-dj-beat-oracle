@@ -50,3 +50,54 @@ The project connects a **Godot frontend** to a **Python Flask backend**, using *
    ```bash
    git clone https://github.com/YourUsername/ai-dj-oracle.git
    cd ai-dj-oracle
+
+Set up the Python bridge
+
+pip install flask openai
+
+
+Add your xAI API key
+Create a .env file in ai-dj-oracle/ with:
+
+XAI_API_KEY=your_api_key_here
+
+
+Run the backend
+
+python ai_bridge.py
+
+
+Run Godot
+
+Open project.godot in Godot 4.5+
+
+Press ▶️ to start chatting with your AI DJ
+
+🧪 Project Structure
+ai-dj-oracle/
+├── project.godot
+├── ai_bridge.py
+├── ui_root.gd
+├── main.tscn
+├── themes/
+│   └── ai_chat_theme.tres
+├── assets/
+│   ├── github_banner.png
+│   └── repo_icon.png
+└── scenes/
+
+
+This project started as a creative fusion of music, AI, and interactivity —
+turning a simple chat interface into a digital DJ personality.
+
+“Music is energy, and AI is emotion in logic form.” – Val John
+
+🛠️ Future Ideas
+
+🎚️ Integrate live music playback via Spotify API
+
+🧠 Add emotion-based responses and personalization
+
+🌐 Deploy web version via Godot Web Export
+
+🎨 Include animated background EQ visualizer
