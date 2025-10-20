@@ -1,0 +1,91 @@
+[gd_scene load_steps=4 format=3 uid="uid://3bk744c6siyv"]
+
+[ext_resource type="Theme" uid="uid://cruf6rosptad4" path="res://themes/ai_chat_theme.tres" id="1_0wfyh"]
+[ext_resource type="Script" uid="uid://rkrbdudlcd3k" path="res://scripts/ui_root.gd" id="1_o5qli"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o5qli"]
+bg_color = Color(0.11764706, 0.11764706, 0.11764706, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.7490196, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="UIRoot" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_0wfyh")
+script = ExtResource("1_o5qli")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 60
+theme_override_constants/margin_bottom = 80
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="ChatBox" type="RichTextLabel" parent="ColorRect/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+fit_content = true
+scroll_following = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ColorRect"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -82.0
+offset_top = -50.0
+offset_right = 82.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 8
+
+[node name="LineEdit" type="LineEdit" parent="ColorRect/HBoxContainer"]
+custom_minimum_size = Vector2(400, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_o5qli")
+placeholder_text = "Type your message..."
+
+[node name="Button" type="Button" parent="ColorRect/HBoxContainer"]
+custom_minimum_size = Vector2(80, 40)
+layout_mode = 2
+text = "Send"
+
+[connection signal="pressed" from="ColorRect/HBoxContainer/Button" to="." method="_on_button_pressed"]
